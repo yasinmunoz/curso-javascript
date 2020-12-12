@@ -1,8 +1,9 @@
-var a = 20
-var b = 30
+var edad = 18
 
-if (a > 20) {
-    console.log ("Hola Mundo Menor")
-} else {
-    console.log ("Hola Mundo Mayor")
-}
+if (edad === 18) console.log ("Puedes votar")
+else if (edad > 18) console.log ("Puedes votar")
+else console.log ("No puedes votar")
+
+var condicion = "f" === "a" ? true : false;
+
+console.log (condicion);
